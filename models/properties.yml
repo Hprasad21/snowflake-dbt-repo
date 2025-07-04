@@ -1,0 +1,29 @@
+sources:
+  - name: hari_sources
+    database: DB_ECOMM
+    schema: SC_ECOMM
+    tables:
+      - name: USERS
+      
+      - name: person_sales
+      
+      - name: payment_modes
+
+      - name: DIM_SALES
+      - name: SCD_EG
+models:
+  - name: "hari"
+    config: 
+      materialized: 'view'
+  
+  - name: "hari3"
+    config: 
+      materialized: 'view'
+  
+  - name: "Users_V2"
+    config: 
+      materialized: 'table'
+  
+  - name: "Users_V3"
+    config: 
+      materialized: 'table'

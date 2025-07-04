@@ -1,0 +1,1 @@
+SELECT * FROM {{ ref('cust_v4') }}

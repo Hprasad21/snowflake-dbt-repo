@@ -1,0 +1,1 @@
+ SELECT * FROM {{ source('hari_sources', 'person_sales') }}

@@ -1,2 +1,6 @@
 name: 'dbt_first_project'
-model-paths: ['sql_models']
+version: 1.0.0
+config-version: 2
+model-paths: ['models']
+macro-paths: [ 'macros' ]
+snapshot-paths: ["snapshots"] 
